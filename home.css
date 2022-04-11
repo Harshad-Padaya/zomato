@@ -1,0 +1,273 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*header CSS*/
+#header{
+    height:60px;
+    background-color:rgb(214 208 208);
+}
+
+#icon{
+    float: left;
+    margin-left:1%;
+    margin-top:-1%;
+}
+
+#social{
+    float: right; 
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+#firstdrop{
+    position:absolute;
+    margin-left: 28%;
+    margin-top: 20%;
+}
+#seconddrop{
+    position:absolute;
+    margin-left: 52%;
+    margin-top: 20%;
+
+}
+
+/*Search CSS*/
+#search{
+    height:400px;
+    width:100%;
+    background-image: url('image/food-wallpaper1.png');
+    background-repeat:no-repeat;   
+    background-size: 100% 400px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color:rgb(240 229 229/ 30%);
+    border-radius: 50%;
+    margin-left: 43%;
+    margin-top:2%;
+    position:absolute;
+}
+
+#logo>span{
+    margin-left: 28%;
+    margin-top:16%;
+    position:absolute;
+    font-size: 80px;
+}
+
+#heading{
+    margin-left: 25%;
+    margin-top: 14%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+
+
+/*QuickSearch CSS*/
+#quickSearch{
+    width:80%;
+    margin-left:10%;
+    margin-top: 2%;
+}
+
+#quickHeading{
+     font-size:30px;
+     color:#e28b62;
+     display:block;
+     font-weight:bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 2%;
+}
+
+#quickSubHeading{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 3;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    width:30%;
+    box-shadow: rgb(226 139 98) 12px 10px 11px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.tileComponent1{
+  width:50%;
+  height:180px;
+  float: left;
+}
+
+.tileComponent1 > img{
+    width:100%;
+    height:180px;
+}
+.tileComponent2{
+    width:45%;
+    margin-left: 5%;
+    margin-top: 14%;
+    float: left;
+}
+
+.componentHeading > a{
+    color:#e28b62;
+    font-size: 25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+
+/*footer CSS*/
+#footer{
+    margin-top:3%;
+    text-align:center;
+    
+}
+
+#footerdiv{
+    background-color:rgba(45, 45, 48, 0.75);
+}
+
+#footer div>span{
+  color:rgb(236, 228, 228);
+  font-size:20px;
+}
+#footdiv{
+    color:white;
+    background-color:rgb(43, 38, 38);
+}
+@media screen and (max-width:1400px) {
+    
+      #seconddrop{
+            position:absolute;
+            margin-top: 20%;
+    }
+}
+@media screen and (max-width:1257px) {
+    
+    #seconddrop{
+          position:absolute;
+          margin-left: 55%;
+          margin-top: 20%;
+    }
+    #heading{ 
+        font-size: 45px;
+    }
+
+    #logo{
+        margin-left:46%;
+    }  
+}
+@media screen and (max-width:1140px){
+  
+    #logo{
+        margin-top:2%;
+        margin-left:43%;
+    }
+    #heading {
+        margin-left:22%;
+        font-size:42px;
+        margin-top:15%;
+    }
+    #firstdrop{
+        margin-left:23%;
+        margin-top:21%;
+    }
+    #seconddrop{
+        margin-top:21%;
+        margin-left:52%;
+    }
+}
+@media screen and (max-width:1060px){
+  
+    #logo{
+        margin-top:0%;
+    }
+    #heading{
+        font-size:40px;
+    }
+    .tileContainer {
+        width: 45%;
+    }
+}
+@media screen and (max-width:990px){
+
+    #logo{
+        height: 130px;
+        width: 130px;
+        margin-left:43%;
+    }
+    #heading{
+        font-size:36px;
+    }
+    .dropdown, .btn{
+        width:49%;
+        font-size:11px;
+        margin-top: 7%;
+    }  
+}
+@media screen and (max-width:880px){
+
+    #logo{
+        height:100px;
+        width:100px;
+        margin-top:2%;
+    }
+    #heading{
+        font-size:32px;
+    }
+    #logo>span{
+        font-size: 55px;
+    }
+    .dropdown, .btn{
+        width:52%;
+        font-size:12px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .dropdown, .btn{
+        width:50%;
+        font-size:10px;
+        margin-top: 10%;
+        margin-left:-5%;
+    }
+}
+@media screen and (max-width:720px){
+
+    .tileContainer {
+        width: 95%;
+    }
+    #logo{
+        height:100px;
+        width:100px;
+        margin-top:5%;
+    }
+    #heading{
+        font-size:22px;
+        margin-top: 25%;
+    }
+    #logo>span{
+        font-size: 55px;
+    }
+    .dropdown, .btn{
+        width:53%;
+        font-size:8px;
+        margin-top: 25%;
+    }
+}

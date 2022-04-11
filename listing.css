@@ -1,0 +1,103 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*header CSS*/
+#header{
+    height:60px;
+    background-color:rgb(214 208 208);
+}
+
+#icon{
+    float: left;
+    margin-left:1%;
+    margin-top:-1%
+}
+
+#social{
+    float: right; 
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+.headingText {
+  text-align: left;
+  margin-left:15%;
+  font-size:30px;
+  font-weight:bold;
+  color:#132769;
+}
+.head{
+    color:#132769;
+    text-align: center;
+    font-size:25px;
+}
+
+#content{
+    display: inline-block;
+    width:80%;
+    margin-left:15%;
+}
+
+#filterDiv{ 
+    height: 550px;
+    width:15%; 
+    padding: 2%;
+    box-shadow: rgb(156, 153, 151) 7px 10px 12px;
+    float:left;
+    
+}
+.head1{
+    color:#132769;
+    font-weight:bold;
+}
+
+.tileContainer{
+    height: 210px;
+    width:50%;
+    margin-left:2%;
+    box-shadow: rgb(156, 153, 151) 7px 10px 12px;
+    float: left;
+    padding: 28px;
+    margin-bottom: 20px;
+
+}
+.tileComponent1 > img{
+    float: left;
+    width:20%;
+    height:120px;
+    padding: 12px ;
+    border-radius: 25px;
+    
+}
+.title{
+    color:#132769;
+    font-weight: bold;
+    font-size:25px;
+}
+
+
+/*footer CSS*/
+#footer{
+    margin-top:3%;
+    text-align:center;
+    
+}
+
+#footerdiv {
+    background-color:rgba(45, 45, 48, 0.75);
+}
+
+#footer div > span{
+  color:rgb(236, 228, 228);
+  font-size:20px;
+}
+#footdiv {
+    color:white;
+    background-color:rgb(43, 38, 38);
+}
